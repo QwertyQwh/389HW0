@@ -83,7 +83,6 @@ int main()
 	delete[] vx;
 	delete[] vy;
 	delete[] vz;
-	std::this_thread::sleep_for(std::chrono::nanoseconds(10000000000));
 	double const coordinate_duration = duration / (double)(size * iters);
 	std::cout << "Mean time per coordinate: " << coordinate_duration << "us.\n";
 	std::cout << "Final checksum is: " << chksum;
