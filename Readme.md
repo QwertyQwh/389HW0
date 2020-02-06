@@ -1,5 +1,5 @@
 ﻿# HW0
-
+This is a readaption of update_location.py into c++ version. The corresponding data structure used in c++ is array. The c++ project has only one header file and one .cpp file. To avoid confusion, the test files done separately using std::vector in c++ is omitted. 
 ## Part 1
 a.The total number of additions involved (not considering checksum) is sizex3xiter. For comparability we want to adjust the arguments so that this number is constant across executions. Since we are multiplying the size by 2, I choose to divide the iteration steps by 2 each time.
 
